@@ -1,12 +1,12 @@
 package project1;
 
-class student1 {
+class Student1 {
     private String name;
     private int age;
     private int rolno;
     private int marks;
 
-    public void student1(String n, int a, int r, int m) {
+    Student1(String n, int a, int r, int m) {
         name = n;
         age = a;
         rolno = r;
@@ -21,8 +21,9 @@ class student1 {
     }
 }
 
-class sciencestudent extends student1 {
-    sciencestudent() {
+class ScienceStudent extends Student1 {
+    public void ScienceStudent() {
         System.out.println("\nStream: Science");
     }
+
 }
